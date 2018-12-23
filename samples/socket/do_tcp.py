@@ -25,7 +25,7 @@ while True:
 data = b''.join(buffer)
 
 # 关闭连接:
-s.close()
+s.close()guimu
 
 header, html = data.split(b'\r\n\r\n', 1)
 print(header.decode('utf-8'))
